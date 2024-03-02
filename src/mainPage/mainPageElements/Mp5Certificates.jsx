@@ -3,7 +3,7 @@ import jsLibrariesCertificate from '/src/assets/jslibrariescomparison_certificat
 
 
 export default function Mp5Certificates(){
-    
+    {/*
     return(
         <>
             <h1 className="header-section">{`<> Certificates </>`}</h1>
@@ -28,4 +28,4 @@ export default function Mp5Certificates(){
             </div>
         </>
     )
-}
+    */}}

@@ -6,8 +6,8 @@ import scoreKeeperProject from '/src/assets/scorekeeperproject.png';
 import userformProject from '/src/assets/userform.png';
 import cardsProject from "/src/assets/cardsproject.png"
 
-export default function Mp3Projects(){
-    return(
+export default function Mp3Projects(){}
+{/* return(
         <>
             <div id="projects-section" className="section">
                 <h1 className="header-section">{`<> Projects </>`}</h1>
@@ -80,4 +80,4 @@ export default function Mp3Projects(){
             </div>
         </>
     )
-}
+}*/}
