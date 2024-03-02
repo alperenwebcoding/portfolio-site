@@ -1,8 +1,7 @@
-import webDevCertificate from '/src/assets/webdevbootcamp_certificate.jpg';
-import jsLibrariesCertificate from '/src/assets/jslibrariescomparison_certificate.jpg';
 
 
-export default function Mp5Certificates(){
+
+export default function Mp5Certificates(){}
     {/*
     return(
         <>
@@ -28,4 +27,4 @@ export default function Mp5Certificates(){
             </div>
         </>
     )
-    */}}
+    */}
