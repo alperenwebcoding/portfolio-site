@@ -33,7 +33,7 @@ export default function Mp1Entry(){
                     <div style={{display:"flex",flexDirection: "column", gap:"0.4rem"}}>
                         <img className="main-logo-image" src="./images/reactlogoblue.png" alt="react" />
                         <div style={{display:"flex",gap:"0.4rem"}}>
-                            <img className="logo-images" src="portfolio\images\html5logoblue.png" alt="html" />
+                            <img className="logo-images" src="C:\Users\alper\OneDrive\Masaüstü\life\giantweb\projects\github\pp\portfolio-website\portfolio\images\html5logoblue.png" alt="html" />
                             <img className="logo-images" src="./images/css3logoblue.png" alt="css" />
                             <img className="logo-images" style={{borderRadius:"0.4rem",border: "solid white 3px"}} src="./images/jslogoblue.png" alt="js" />
                         </div>
