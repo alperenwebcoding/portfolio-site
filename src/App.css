@@ -1,0 +1,33 @@
+/*
+mainpage bg: #23272f
+mainpage bg2: #191c22
+text color: #f6f7f9
+blue color for bg: #149eca
+text highlight color: #404756
+textboxes bg: #18374f
+button1: #087ea4
+button2: #252932
+button 1 hover: #0b6a89
+button 1 hover: (lighter)
+*/
+*{
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  background-color: #23272f;
+}
+p,h1,h2,h3,h4,button,input{
+  color: #f6f7f9
+}
+  h1,h2,h3,h4{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
