@@ -33,7 +33,7 @@ export default function Mp1Entry(){
                         <a href="https://www.x.com" target="_blank" ><FontAwesomeIcon icon={faSquareXTwitter} className='navbar__socials--icon' size="2xl" style={{color: "#ffffff",}} /></a>
                     </div>
                 </div>
-                {/*<div id="logos" style={{position:"absolute",left:"3%",transform:"translateY(-50%)",top:"40%", flexDirection:"column"}}>
+                <div id="logos" style={{position:"absolute",left:"3%",transform:"translateY(-50%)",top:"40%", flexDirection:"column"}}>
                     <div style={{display:"flex",flexDirection: "column", gap:"0.4rem"}}>
                         <img className="main-logo-image" src={reactLogoBlue} alt="react" />
                         <div style={{display:"flex",gap:"0.4rem"}}>
@@ -42,7 +42,7 @@ export default function Mp1Entry(){
                             <img className="logo-images" style={{borderRadius:"0.4rem",border: "solid white 3px"}} src={jsLogoBlue} alt="js" />
                         </div>
                     </div>
-                </div>*/}
+                </div>
                 <div id="title" style={{position:"absolute", transform:"translate(-50%,-50%)",top:"50%",left:"75%"}}>
                     <p>Front End Developer <br/>Research Analyst</p>
                 </div>
