@@ -44,7 +44,7 @@ export default function Mp1Entry(){
                     <p>Front End Developer <br/>Research Analyst</p>
                 </div>
                 <div id="name" style={{position:"absolute", bottom:"10%", left:"50%",transform:"translate(-50%,-20%)"}}>
-                    <h1 style={{fontSize:"6rem",width:"90vw",textAlign:"center"}}>Alperen "webDew" Karakaya</h1>
+                    <h1 style={{fontSize:"6rem",width:"90vw",textAlign:"center"}}>Alperen "web1" Karakaya</h1>
                 </div>
             </div>
         </>
