@@ -1,6 +1,9 @@
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faGithub , faLinkedin , faSquareXTwitter } from '@fortawesome/free-brands-svg-icons';
-import htmlIcon from '../../../images/html5logoblue.png'
+import html5LogoBlue from '/images/html5logoblue.png';
+import css3LogoBlue from '/images/css3logoblue.png';
+import jsLogoBlue from '/images/jslogoblue.png';
+import reactLogoBlue from '/images/reactlogoblue.png';
 
 export default function Mp1Entry(){
     
@@ -32,11 +35,11 @@ export default function Mp1Entry(){
                 </div>
                 <div id="logos" style={{position:"absolute",left:"3%",transform:"translateY(-50%)",top:"40%", flexDirection:"column"}}>
                     <div style={{display:"flex",flexDirection: "column", gap:"0.4rem"}}>
-                        <img className="main-logo-image" src="./images/reactlogoblue.png" alt="react" />
+                        <img className="main-logo-image" src={reactLogoBlue} alt="react" />
                         <div style={{display:"flex",gap:"0.4rem"}}>
-                            <img className="logo-images" src="https://alperenwebcoding.github.io/portfolio-website/images/html5logoblue.png" alt="html" />
-                            <img className="logo-images" src="./images/css3logoblue.png" alt="css" />
-                            <img className="logo-images" style={{borderRadius:"0.4rem",border: "solid white 3px"}} src="./images/jslogoblue.png" alt="js" />
+                            <img className="logo-images" src={html5LogoBlue} alt="html" />
+                            <img className="logo-images" src={css3LogoBlue} alt="css" />
+                            <img className="logo-images" style={{borderRadius:"0.4rem",border: "solid white 3px"}} src={jsLogoBlue} alt="js" />
                         </div>
                     </div>
                 </div>
@@ -44,7 +47,7 @@ export default function Mp1Entry(){
                     <p>Front End Developer <br/>Research Analyst</p>
                 </div>
                 <div id="name" style={{position:"absolute", bottom:"10%", left:"50%",transform:"translate(-50%,-20%)"}}>
-                    <h1 style={{fontSize:"6rem",width:"90vw",textAlign:"center"}}>Alperen "web1" Karakaya</h1>
+                    <h1 style={{fontSize:"6rem",width:"90vw",textAlign:"center"}}>Alperen Karakaya</h1>
                 </div>
             </div>
         </>

@@ -1,3 +1,11 @@
+import expenseProject from '/src/assets/expenseproject.png';
+import investmentProject from '/src/assets/investmentproject.png';
+import luckyNumberProject from '/src/assets/luckynumberproject.png';
+import quizProject from '/src/assets/quizproject.png';
+import scoreKeeperProject from '/src/assets/scorekeeperproject.png';
+import userformProject from '/src/assets/userform.png';
+import cardsProject from "/src/assets/cardsproject.png"
+
 export default function Mp3Projects(){
     return(
         <>
@@ -12,10 +20,10 @@ export default function Mp3Projects(){
                             utilized in this game. It was built using HTML, CSS, and React.js.`}</p>
                         </div>
                         
-                        <img className="projects__image" src="/src/assets/scorekeeperproject.png" alt="" />
+                        <img className="projects__image" src={scoreKeeperProject} alt="" />
                     </div>
                     <div id="project-2" className="projects__content--type2">
-                        <img className="projects__image" src="/src/assets/cardsproject.png" alt="" />
+                        <img className="projects__image" src={cardsProject} alt="" />
                         <div className="projects__textBox">
                             <h2>{"{Cards Project}"}</h2>
                             <p>{`This project features a simple React application focused primarily on CSS, implementing
@@ -34,10 +42,10 @@ export default function Mp3Projects(){
                             through filters. It was built using HTML, CSS, and React.js.`}</p>                        
                         </div>
                         
-                        <img className="projects__image" src="/src/assets/expenseproject.png" alt="" />
+                        <img className="projects__image" src={expenseProject} alt="" />
                     </div>
                     <div id="project-2" className="projects__content--type2">
-                        <img className="projects__image" src="/src/assets/investmentproject.png" alt="" />
+                        <img className="projects__image" src={investmentProject} alt="" />
 
                         <div className="projects__textBox">
                             <h2>{"{Investment Calculator Project}"}</h2>
@@ -55,10 +63,10 @@ export default function Mp3Projects(){
                             entered, emphasizing user preference. It was built using HTML, CSS, and React.js.`}</p>
                         </div>
                         
-                        <img className="projects__image" src="/src/assets/userform.png" alt="" />
+                        <img className="projects__image" src={userformProject} alt="" />
                     </div>
                     <div id="project-2" className="projects__content--type2">
-                        <img className="projects__image" src="/src/assets/quizproject.png" alt="" />
+                        <img className="projects__image" src={quizProject} alt="" />
                         <div className="projects__textBox">
                             <h2>{"{Quiz Project}"}</h2>
                             <p>{`This project, with heavy usage of React, involves creating a set of specific questions where the answers
