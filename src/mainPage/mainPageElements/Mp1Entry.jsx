@@ -1,9 +1,9 @@
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faGithub , faLinkedin , faSquareXTwitter } from '@fortawesome/free-brands-svg-icons';
-import html5LogoBlue from './src/images/html5logoblue.png';
-import css3LogoBlue from './src/images/css3logoblue.png';
-import jsLogoBlue from './src/images/jslogoblue.png';
-import reactLogoBlue from './src/images/reactlogoblue.png';
+import html5LogoBlue from '/images/html5logoblue.png';
+import css3LogoBlue from '/images/css3logoblue.png';
+import jsLogoBlue from '/images/jslogoblue.png';
+import reactLogoBlue from '/images/reactlogoblue.png';
 
 export default function Mp1Entry(){
     

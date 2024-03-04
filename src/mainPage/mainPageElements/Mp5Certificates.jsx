@@ -1,5 +1,5 @@
-import webDevCertificate from '/src/assets/webdevbootcamp_certificate.jpg';
-import jsLibrariesCertificate from '/src/assets/jslibrariescomparison_certificate.jpg';
+import webDevCertificate from '/assets/webdevbootcamp_certificate.jpg';
+import jsLibrariesCertificate from '/assets/jslibrariescomparison_certificate.jpg';
 
 
 export default function Mp5Certificates(){

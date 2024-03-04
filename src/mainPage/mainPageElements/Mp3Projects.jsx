@@ -1,10 +1,10 @@
-import expenseProject from '/src/assets/expenseproject.png';
-import investmentProject from '/src/assets/investmentproject.png';
-import luckyNumberProject from '/src/assets/luckynumberproject.png';
-import quizProject from '/src/assets/quizproject.png';
-import scoreKeeperProject from '/src/assets/scorekeeperproject.png';
-import userformProject from '/src/assets/userform.png';
-import cardsProject from "/src/assets/cardsproject.png"
+import expenseProject from '/assets/expenseproject.png';
+import investmentProject from '/assets/investmentproject.png';
+import luckyNumberProject from '/assets/luckynumberproject.png';
+import quizProject from '/assets/quizproject.png';
+import scoreKeeperProject from '/assets/scorekeeperproject.png';
+import userformProject from '/assets/userform.png';
+import cardsProject from "/assets/cardsproject.png"
 
 export default function Mp3Projects(){
     return(
